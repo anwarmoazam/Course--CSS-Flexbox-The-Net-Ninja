@@ -9,7 +9,7 @@ body{
 
 .wrapper{
     width: 100%;
-    max-width: 960px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -21,8 +21,10 @@ body{
 
 .box{
     height: 100px;
-    min-width: 200px;
-    flex-grow: 1;
+    /* min-width: 500px; */
+    flex-basis: 500px;
+    /* flex: 1 0 200px; */
+    /* flex is combination of flex-grow, flex-shrink and flex-basis */
 }
 
 .one{
